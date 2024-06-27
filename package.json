@@ -1,6 +1,6 @@
 {
   "name": "zora-language",
-  "displayName": "Zora Language Support",
+  "displayName": "Zora Lumin Language Support",
   "description": "Syntax highlighting for Zora configuration files.",
   "version": "0.1.0",
   "publisher": "zora",
