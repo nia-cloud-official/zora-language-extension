@@ -21,6 +21,10 @@
         "extensions": [
           ".zora",
           ".zr"
+        ],
+        "filenames": [
+          "*.zora",
+          "*.zr"
         ]
       }
     ],
@@ -29,6 +33,12 @@
         "language": "zora",
         "scopeName": "source.zora",
         "path": "./syntaxes/zora.tmLanguage.json"
+      }
+    ],
+    "fileIcons": [
+      {
+        "language": "zora",
+        "icon": "icon.png"
       }
     ]
   },
@@ -44,4 +54,4 @@
     "vscode": "^1.60.0"
   },
   "icon": "icon.png"
- }
+}
