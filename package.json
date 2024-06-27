@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "publisher": "zora",
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Languages"
@@ -41,6 +41,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vscode": "^1.1.37"
+    "vscode": "^1.60.0"
   }
 }
