@@ -43,5 +43,5 @@
   "devDependencies": {
     "vscode": "^1.60.0"
   },
-  "icon": "https://i.ibb.co/8j94Hy0/Gradient-Minimalistic-Futuristic-Logo-removebg-preview.png"
+  "icon": "icon.png"
  }
