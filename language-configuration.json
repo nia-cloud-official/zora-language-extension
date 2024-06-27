@@ -1,0 +1,111 @@
+{
+    "comments": {
+        "lineComment": "//",
+        "blockComment": ["/*", "*/"]
+    },
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["<", ">"] // added support for angle brackets
+    ],
+    "autoClosingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"],
+        ["<", ">"] // added support for auto-closing angle brackets
+    ],
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"],
+        ["<", ">"] // added support for surrounding angle brackets
+    ],
+    "colorizedBracketPairs": [
+        [
+            "(",
+            ")"
+        ],
+        [
+            "[",
+            "]"
+        ],
+        [
+            "{",
+            "}"
+        ],
+        [
+            "<",
+            ">"
+        ] // added support for colorized angle brackets
+    ],
+    "indentationRules": {
+        "increaseIndentPattern": "^((?!\\s*\\}).)*$",
+        "decreaseIndentPattern": "^\\s*\\}"
+    },
+    "wordPattern": "set, container, class, function, variable, type",
+    "folding": {
+        "markers": {
+            "start": "^\\s*{",
+            "end": "^\\s*}"
+        }
+    },
+    "onEnterRules": [
+        {
+            "beforeText": "[{]",
+            "afterText": "}",
+            "action": {
+                "indentAction": "indent",
+                "insertText": "\n"
+            }
+        },
+        {
+            "beforeText": "[()]",
+            "afterText": ")",
+            "action": {
+                "indentAction": "indent",
+                "insertText": "\n"
+            }
+        }
+    ],
+    "semanticTokenTypes": [
+        "namespace",
+        "type",
+        "class",
+        "enum",
+        "interface",
+        "struct",
+        "typeParameter",
+        "parameter",
+        "variable",
+        "property",
+        "enumMember",
+        "event",
+        "function",
+        "method",
+        "macro",
+        "keyword",
+        "modifier",
+        "comment",
+        "string"
+    ],
+    "semanticTokenModifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "static",
+        "deprecated",
+        "abstract",
+        "async",
+        "const",
+        "default",
+        "override",
+        "private",
+        "protected",
+        "public"
+    ]
+}

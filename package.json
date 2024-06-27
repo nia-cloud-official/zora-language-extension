@@ -1,0 +1,46 @@
+{
+  "name": "zora-language",
+  "displayName": "Zora Language Support",
+  "description": "Syntax highlighting for Zora configuration files.",
+  "version": "0.1.0",
+  "publisher": "zora",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "zora",
+        "aliases": [
+          "Zora",
+          "zora"
+        ],
+        "extensions": [
+          ".zora",
+          ".zr"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "zora",
+        "scopeName": "source.zora",
+        "path": "./syntaxes/zora.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nia-cloud-official/zora-language-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nia-cloud-official/zora-language-extension/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
