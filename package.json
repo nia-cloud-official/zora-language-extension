@@ -2,7 +2,7 @@
   "name": "zora-language",
   "displayName": "Zora Lumin Language Support",
   "description": "Syntax highlighting for Zora configuration files.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "zora",
   "engines": {
     "vscode": "^1.60.0"
@@ -38,7 +38,7 @@
     "fileIcons": [
       {
         "language": "zora",
-        "icon": "icon.png"
+        "icon": "16x16.png"
       }
     ]
   },
