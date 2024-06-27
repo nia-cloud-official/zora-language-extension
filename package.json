@@ -38,7 +38,11 @@
     "fileIcons": [
       {
         "language": "zora",
-        "icon": "16x16.png"
+        "icon": {
+          "light": "icon.png",
+          "dark": "icon.png",
+          "icon": "icon.png"
+        }
       }
     ]
   },
@@ -51,7 +55,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vscode": "^1.60.0"
+    "vscode": ""
   },
   "icon": "icon.png"
 }
