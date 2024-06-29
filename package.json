@@ -5,11 +5,9 @@
   "version": "0.1.1",
   "publisher": "zora",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "*"
   },
-  "categories": [
-    "Languages"
-  ],
+  "categories": ["Programming Languages"],
   "contributes": {
     "languages": [
       {
