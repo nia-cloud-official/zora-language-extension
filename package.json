@@ -34,18 +34,17 @@
       }
     ],
     "fileIcons": [
-  {
-    "fileMatch": [
-      "*.zora",
-      "*.zr"
-    ],
-    "icon": {
-      "light": "icon.png",
-      "dark": "icon.png"
-    }
-  }
-]
-
+      {
+        "fileMatch": [
+          "*.zora",
+          "*.zr"
+        ],
+        "icon": {
+          "light": "icon.png",
+          "dark": "icon.png"
+        }
+      }
+    ]
   },
   "repository": {
     "type": "git",
